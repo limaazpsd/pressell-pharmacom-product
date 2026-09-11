@@ -48,6 +48,14 @@
     gtag('config', 'AW-18440849642');
     gtag('config', 'G-WQ2B6NVC5B');
 
+    // Evento de Conversão - Visualização de Página (Google Ads)
+    gtag('event', 'conversion', {
+        'send_to': 'AW-18440849642/YQbbCI6axvMcEOqRpNIE',
+        'value': 1.0,
+        'currency': 'BRL',
+        'transport_type': 'beacon'
+    });
+
     // Evento de Acesso à Página - Sobre Nós
     gtag('event', 'acesso_sobre_nos', {
         'event_category': 'Portal',
@@ -488,7 +496,7 @@
         try {
           if (typeof window.gtag === 'function') {
             window.gtag('event', 'conversion', {
-              'send_to': 'AW-18440849642',
+              'send_to': 'AW-18440849642/YQbbCI6axvMcEOqRpNIE',
               'value': 1.0,
               'currency': 'BRL',
               'event_callback': callback,
