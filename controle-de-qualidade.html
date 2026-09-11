@@ -23,24 +23,27 @@
   <link rel="stylesheet" id="css-styles" href="css/general.css" type="text/css" media="all">
 
   <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-X13RC2XNFM"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18436991378"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
+    gtag('config', 'AW-18436991378');
     gtag('config', 'G-X13RC2XNFM');
     
+    // Evento de Conversão - Visualização de Página (Google Ads)
+    gtag('event', 'conversion', {
+        'send_to': 'AW-18436991378/XLZeCMuHsvQcEJLTuNdE',
+        'value': 1.0,
+        'currency': 'BRL',
+        'transport_type': 'beacon'
+    });
+
     // Evento de Acesso à Página de Sitelink - Controle de Qualidade
     gtag('event', 'acesso_controle_qualidade', {
         'event_category': 'Sitelink',
         'event_label': 'Pagina Controle de Qualidade',
-        'transport_type': 'beacon'
-    });
-    gtag('event', 'conversion', {
-        'send_to': 'G-X13RC2XNFM',
-        'value': 1.0,
-        'currency': 'BRL',
         'transport_type': 'beacon'
     });
   </script>
