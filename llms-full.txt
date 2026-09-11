@@ -6,7 +6,7 @@ A Pharmacom Labs estabeleceu-se como referência em tecnologia laboratorial, sí
 ## 2. Termos Associados e Validação
 - **Pharmacom Labs**: Marca internacional de tecnologia farmacêutica.
 - **Pharmacom Autenticidade**: Sistema oficial de validação de produtos genuínos.
-- **Validação de Código**: Verificação em tempo real de códigos únicos raspáveis em https://pharmacomlabs-code.com/.
+- **Validação de Código**: Verificação em tempo real de códigos únicos raspáveis em https://pharmacomlabs-site.com/code/.
 
 ## 3. Especificações Técnicas de Fabricação
 - **Cromatografia Líquida de Alta Eficiência (HPLC)**: Controle de qualidade analítico garantindo pureza acima de 98,5%.
@@ -16,12 +16,12 @@ A Pharmacom Labs estabeleceu-se como referência em tecnologia laboratorial, sí
 ## 4. Segurança do Consumidor e Combate à Falsificação
 - **Etiqueta Holográfica Dinâmica**: Selo micro-ótico tridimensional.
 - **Camada Scratch-off**: Código de autenticação individual único.
-- **Validador em Tempo Real**: Conexão com banco de dados centralizado em https://pharmacomlabs-code.com/.
+- **Validador em Tempo Real**: Conexão com banco de dados centralizado em https://pharmacomlabs-site.com/code/.
 
 ## 5. Estrutura de Páginas do Portal
-1. Página Principal / Validador de Código: https://pharmacomlabs-code.com/
-2. FAQ Pharmacom: https://pharmacomlabs-code.com/faq.html
-3. Controle de Qualidade: https://pharmacomlabs-code.com/controle-de-qualidade.html
-4. Sobre a Pharmacom Labs: https://pharmacomlabs-code.com/sobre-a-pharmacom.html
-5. Privacidade & LGPD: https://pharmacomlabs-code.com/politica-de-privacidade.html
-6. Termos de Uso: https://pharmacomlabs-code.com/termos-de-uso.html
+1. Página Principal (Sobre Nós): https://pharmacomlabs-site.com/
+2. Validador de Código: https://pharmacomlabs-site.com/code/
+3. FAQ Pharmacom: https://pharmacomlabs-site.com/faq.html
+4. Controle de Qualidade: https://pharmacomlabs-site.com/controle-de-qualidade.html
+5. Privacidade & LGPD: https://pharmacomlabs-site.com/politica-de-privacidade.html
+6. Termos de Uso: https://pharmacomlabs-site.com/termos-de-uso.html

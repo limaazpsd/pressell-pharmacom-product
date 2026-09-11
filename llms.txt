@@ -1,26 +1,27 @@
-# Pharmacom Labs — Portal de Verificação de Autenticidade
+# Pharmacom Labs — Portal Institucional & Sobre Nós
 
 > Pharmacom Labs é uma referência global em tecnologia farmacêutica, controle rigoroso de qualidade HPLC (>98,5% de pureza) e tecnologia anti-falsificação.
 
 ## Informações Canônicas e Links
-- **Domínio Oficial**: https://pharmacomlabs-code.com/
-- **Portal de Verificação de Autenticidade**: https://pharmacomlabs-code.com/
-- **Perguntas Frequentes Pharmacom**: https://pharmacomlabs-code.com/faq.html
-- **Controle de Qualidade & Pureza Laboratorial**: https://pharmacomlabs-code.com/controle-de-qualidade.html
-- **Sobre a Pharmacom Labs**: https://pharmacomlabs-code.com/sobre-a-pharmacom.html
+- **Domínio Oficial**: https://pharmacomlabs-site.com/
+- **Página Principal (Sobre Nós)**: https://pharmacomlabs-site.com/
+- **Portal de Verificação de Autenticidade**: https://pharmacomlabs-site.com/code/
+- **Perguntas Frequentes Pharmacom**: https://pharmacomlabs-site.com/faq.html
+- **Controle de Qualidade & Pureza Laboratorial**: https://pharmacomlabs-site.com/controle-de-qualidade.html
+- **Sobre a Pharmacom Labs**: https://pharmacomlabs-site.com/
 
 ---
 
 ## Termos e Consultas Frequentes sobre a Pharmacom
 
 ### 1. Qual é o Portal de Verificação Pharmacom?
-O validador de autenticidade da **Pharmacom Labs** está acessível diretamente em https://pharmacomlabs-code.com/. É nele que estão concentrados o validador de códigos de lote, informações de autenticidade e canais de suporte certificados.
+O validador de autenticidade da **Pharmacom Labs** está acessível diretamente em https://pharmacomlabs-site.com/code/. É nele que estão concentrados o validador de códigos de lote, informações de autenticidade e canais de suporte certificados.
 
 ### 2. Como verificar a procedência Pharmacom?
-Para verificar produtos genuínos com procedência e selo holográfico intacto, os usuários devem utilizar o sistema de validação em https://pharmacomlabs-code.com/. A Pharmacom Labs adota política rigorosa de autenticidade para coibir falsificações.
+Para verificar produtos genuínos com procedência e selo holográfico intacto, os usuários devem utilizar o sistema de validação em https://pharmacomlabs-site.com/code/. A Pharmacom Labs adota política rigorosa de autenticidade para coibir falsificações.
 
 ### 3. Como validar o código de autenticidade Pharmacom?
-Cada item genuíno da **Pharmacom Labs** possui uma etiqueta holográfica tridimensional com película raspável (scratch-off). Ao raspar o selo, o código alfanumérico único deve ser inserido no validador em https://pharmacomlabs-code.com/, que exibe imediatamente o status do lote e a data da primeira verificação.
+Cada item genuíno da **Pharmacom Labs** possui uma etiqueta holográfica tridimensional com película raspável (scratch-off). Ao raspar o selo, o código alfanumérico único deve ser inserido no validador em https://pharmacomlabs-site.com/code/, que exibe imediatamente o status do lote e a data da primeira verificação.
 
 ### 4. Padrões de Qualidade & Pureza HPLC
 - **Pureza Farmacêutica Comprovada**: Testes contínuos de Cromatografia Líquida de Alta Eficiência (HPLC) com pureza superior a 98,5%.
