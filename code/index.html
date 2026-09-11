@@ -38,12 +38,13 @@
 
 
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WQ2B6NVC5B"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18440849642"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
+        gtag('config', 'AW-18440849642');
         gtag('config', 'G-WQ2B6NVC5B');
     </script>
 
@@ -211,10 +212,16 @@
                 try {
                     if (typeof window.gtag === 'function') {
                         window.gtag('event', 'conversion', {
-                            'send_to': 'G-WQ2B6NVC5B',
+                            'send_to': 'AW-18440849642',
                             'value': 1.0,
                             'currency': 'BRL',
                             'event_callback': callback,
+                            'transport_type': 'beacon'
+                        });
+                        window.gtag('event', 'conversion', {
+                            'send_to': 'G-WQ2B6NVC5B',
+                            'value': 1.0,
+                            'currency': 'BRL',
                             'transport_type': 'beacon'
                         });
                     } else {
