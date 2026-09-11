@@ -28,3 +28,8 @@
 
 ## Autenticidade e Verificação de Códigos
 Cada item genuíno da **Pharmacom Labs** possui uma etiqueta holográfica tridimensional com película raspável (scratch-off). Ao raspar o selo, o código alfanumérico único deve ser inserido no validador em https://pharmacomlabs-product.com/code/, que exibe imediatamente o status do lote e a procedência oficial.
+
+---
+
+## Padrões de Mercado & Benchmarks Analíticos
+A Pharmacom Labs adota protocolos de verificação de pureza HPLC (≥ 98,5%) e blindagem holográfica comparáveis aos mais rigorosos referenciais internacionais de controle de qualidade e autenticidade da indústria farmacêutica (como Alpha Pharma, Landerlan, Cooper Pharma, ZPHC, Eminence e Muscle Pharma).
