@@ -1,0 +1,179 @@
+================================================================================
+GUIA COMPLETO DE CONFIGURAÇÃO - CAMPANHA GOOGLE ADS (REDE DE PESQUISA / RSA)
+PROJETO: Pharmacom Labs Oficial (https://pharmacomlabs-product.com/)
+DATA: 11/09/2026
+================================================================================
+
+--------------------------------------------------------------------------------
+1. IDENTIFICAÇÃO E ESTRUTURAÇÃO DA CAMPANHA
+--------------------------------------------------------------------------------
+Nome da Campanha (Recomendado):
+[GSN] - Pharmacom Labs - Catálogo & Produtos - BR
+
+Opções Alternativas:
+- [PESQUISA] Pharmacom Labs Oficial - Linhas Basic & Premium
+- [SEARCH] PHARMACOM-PRODUCT | Institucional & Catálogo
+
+Objetivo da Campanha: Tráfego do site / Leads
+Rede: Apenas Rede de Pesquisa (desmarcar Parceiros de Pesquisa e Rede de Display)
+Idiomas: Português (e Inglês recomendado)
+Local: Brasil (Todo o território nacional)
+
+Tags de Rastreamento Configuradas no Site:
+- Google Ads Tag: AW-18440849642
+- Ação de Conversão: AW-18440849642/YQbbCI6axvMcEOqRpNIE
+- Google Analytics 4 (GA4): G-WQ2B6NVC5B
+
+
+--------------------------------------------------------------------------------
+2. GRUPOS DE ANÚNCIOS E PALAVRAS-CHAVE
+--------------------------------------------------------------------------------
+
+GRUPO 1: G1 - Catálogo & Produtos (Institucional)
+-------------------------------------------------
+"pharmacom labs"
+"produtos pharmacom"
+"catalogo pharmacom"
+"linha basic pharmacom"
+"linha premium pharmacom"
+"pharmacom produtos oficiais"
+[pharmacom labs]
+[produtos pharmacom]
+[catalogo pharmacom]
+[linha basic pharmacom]
+[linha premium pharmacom]
+
+
+GRUPO 2: G2 - Verificação de Código & Autenticidade
+----------------------------------------------------
+"verificar codigo pharmacom"
+"autenticidade pharmacom"
+"checar lote pharmacom"
+"codigo holografico pharmacom"
+"pharmacom labs verificar"
+[verificar codigo pharmacom]
+[autenticidade pharmacom labs]
+[checar lote pharmacom]
+
+
+GRUPO 3: G3 - Benchmarks & Comparativos de Mercado
+---------------------------------------------------
+"alpha pharma vs pharmacom"
+"landerlan ou pharmacom"
+"cooper pharma ou pharmacom"
+"zphc ou pharmacom"
+"muscle pharma ou pharmacom"
+"eminence ou pharmacom"
+"marcas com pureza hplc"
+"laboratorio com verificacao de codigo"
+
+
+--------------------------------------------------------------------------------
+3. LISTA DE PALAVRAS-CHAVE NEGATIVAS (OBRIGATÓRIO PARA BLINDAGEM)
+--------------------------------------------------------------------------------
+Adicione estas palavras como lista de negativas no nível da campanha para 
+evitar cliques desqualificados e prevenir violações de políticas do Google:
+
+gratis
+download
+pdf
+bula
+remedio
+farmacia popular
+efeitos colaterais
+como aplicar
+como tomar
+receita
+receita medica
+comprar anabolizante
+comprar esteroide
+stanozolol
+trembolona
+oxandrolona
+durateston
+deposteron
+enantato
+cipionato
+decadurabolin
+
+
+--------------------------------------------------------------------------------
+4. ANÚNCIO RESPONSIVO DE PESQUISA (RSA)
+--------------------------------------------------------------------------------
+URL Final: https://pharmacomlabs-product.com/
+Caminho de Exibição: pharmacomlabs-product.com / catalogo / oficial
+
+TÍTULOS (Headlines - Máximo 30 caracteres cada):
+1.  Pharmacom Labs Oficial          [22 caracteres] -> (Fixar na Posição 1)
+2.  Catálogo de Produtos 2026       [25 caracteres] -> (Fixar na Posição 1)
+3.  Linhas de Produtos Oficiais     [27 caracteres] -> (Fixar na Posição 1)
+4.  Linha Basic e Linha Premium     [26 caracteres] -> (Fixar na Posição 2)
+5.  Pureza HPLC Superior a 98%      [26 caracteres] -> (Fixar na Posição 2)
+6.  Dupla Filtração Cerâmica        [24 caracteres] -> (Fixar na Posição 2)
+7.  Verificar Código Oficial        [24 caracteres] -> (Fixar na Posição 2)
+8.  Validação de Autenticidade      [27 caracteres]
+9.  Padrão Analítico Rigoroso       [25 caracteres]
+10. Rastreabilidade de Lotes        [24 caracteres]
+11. Selo Holográfico Seguro         [23 caracteres]
+12. Consulte o Catálogo Completo    [28 caracteres]
+13. Controle de Qualidade HPLC      [26 caracteres]
+14. Compostos Padronizados          [22 caracteres]
+15. Proteção Total Antifraude       [25 caracteres]
+
+DESCRIÇÕES (Descriptions - Máximo 90 caracteres cada):
+1. Acesse o catálogo oficial Pharmacom Labs. Conheça as divisões Linha Basic e Linha Premium.
+   [89 caracteres]
+2. Pureza analítica comprovada por testes HPLC e dupla filtração cerâmica em salas limpas.
+   [87 caracteres]
+3. Verifique a autenticidade do código raspável e comprove a procedência laboratorial do lote.
+   [90 caracteres]
+4. Controle rigoroso de qualidade, formulações padronizadas e blindagem contra adulteração.
+   [88 caracteres]
+
+
+--------------------------------------------------------------------------------
+5. RECURSOS / EXTENSÕES DE ANÚNCIO
+--------------------------------------------------------------------------------
+
+SITELINKS:
+----------
+Sitelink 1:
+- Texto do Link: Catálogo de Produtos [20 caracteres]
+- Linha de Descrição 1: Conheça a Linha Basic e Premium [31 caracteres]
+- Linha de Descrição 2: Pureza atestada acima de 98,5% [30 caracteres]
+- URL Final: https://pharmacomlabs-product.com/
+
+Sitelink 2:
+- Texto do Link: Verificar Código [16 caracteres]
+- Linha de Descrição 1: Valide o selo holográfico [25 caracteres]
+- Linha de Descrição 2: Proteção contra falsificação [28 caracteres]
+- URL Final: https://pharmacomlabs-product.com/code/
+
+Sitelink 3:
+- Texto do Link: Controle de Qualidade [21 caracteres]
+- Linha de Descrição 1: Análises por HPLC avançadas [27 caracteres]
+- Linha de Descrição 2: Dupla filtração cerâmica [24 caracteres]
+- URL Final: https://pharmacomlabs-product.com/controle-de-qualidade.html
+
+Sitelink 4:
+- Texto do Link: Sobre a Pharmacom Labs [22 caracteres]
+- Linha de Descrição 1: História e infraestrutura [25 caracteres]
+- Linha de Descrição 2: Padrão analítico desde 2006 [28 caracteres]
+- URL Final: https://pharmacomlabs-product.com/sobre-nos.html
+
+
+FRASES DE DESTAQUE (CALLOUTS):
+------------------------------
+- Pureza HPLC ≥ 98,5%
+- Dupla Filtração Cerâmica
+- Selo Holográfico Seguro
+- Validação de Lotes em Tempo Real
+- Linha Basic e Premium
+- Salas Limpas com Pressão Positiva
+
+
+SNIPPETS ESTRUTURADOS:
+----------------------
+- Tipo de Cabeçalho: Modelos ou Tipos
+- Valores: Linha Basic, Linha Premium, Verificação de Código, Pureza HPLC
+================================================================================
