@@ -18,17 +18,17 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="Verificar Código de Autenticidade - Pharmacom Labs">
     <meta property="og:description" content="Verifique a autenticidade do seu produto Pharmacom Labs. Proteção total contra falsificações.">
-    <meta property="og:url" content="https://pharmacomlabs-site.com/code/">
-    <meta property="og:image" content="https://pharmacomlabs-site.com/images/logo.png">
+    <meta property="og:url" content="https://pharmacomlabs-product.com/code/">
+    <meta property="og:image" content="https://pharmacomlabs-product.com/images/logo.png">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Verificar Código - Pharmacom Labs">
     <meta name="twitter:description" content="Verifique a autenticidade do seu produto Pharmacom Labs.">
-    <meta name="twitter:image" content="https://pharmacomlabs-site.com/images/logo.png">
+    <meta name="twitter:image" content="https://pharmacomlabs-product.com/images/logo.png">
 
     <title>Pharmacom Labs - Verificar Código</title>
-    <link rel="canonical" href="https://pharmacomlabs-site.com/code/">
+    <link rel="canonical" href="https://pharmacomlabs-product.com/code/">
 
     <link rel="icon" href="data:,">
 
@@ -36,9 +36,7 @@
     <link rel="stylesheet" id="css-styles" href="../css/general.css" type="text/css" media="all">
     <link rel="stylesheet" id="css-lightbox" href="../css/lightbox.css" type="text/css" media="all">
 
-    <!-- Preloads -->
-    <link rel="preload" as="image" href="../phcpopup/images/eu_banner.gif" fetchpriority="high">
-    <link rel="preload" as="image" href="../phcpopup/images/close4.png">
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18436991378"></script>
     <script>
@@ -64,19 +62,19 @@
         "@graph": [
             {
                 "@type": "WebSite",
-                "@id": "https://pharmacomlabs-site.com/#website",
-                "url": "https://pharmacomlabs-site.com/",
+                "@id": "https://pharmacomlabs-product.com/#website",
+                "url": "https://pharmacomlabs-product.com/",
                 "name": "Pharmacom Labs",
                 "description": "Sistema de verificação e checagem de código de autenticidade Pharmacom Labs."
             },
             {
                 "@type": "WebPage",
-                "@id": "https://pharmacomlabs-site.com/code/#webpage",
-                "url": "https://pharmacomlabs-site.com/code/",
+                "@id": "https://pharmacomlabs-product.com/code/#webpage",
+                "url": "https://pharmacomlabs-product.com/code/",
                 "name": "Verificar Código - Pharmacom Labs",
                 "description": "Sistema de verificação e checagem de código de autenticidade Pharmacom Labs.",
                 "isPartOf": {
-                    "@id": "https://pharmacomlabs-site.com/#website"
+                    "@id": "https://pharmacomlabs-product.com/#website"
                 }
             }
         ]
@@ -99,170 +97,6 @@
             padding: 0 14px;
         }
 
-        #poppromotimer {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.78);
-            backdrop-filter: blur(5px);
-            -webkit-backdrop-filter: blur(5px);
-            z-index: 999998;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            opacity: 0;
-            visibility: hidden;
-            pointer-events: none;
-            transition: opacity 0.4s ease, visibility 0.4s ease;
-        }
-
-        #poppromotimer.popup-visible {
-            opacity: 1;
-            visibility: visible;
-            pointer-events: auto;
-        }
-
-        #poppromotimer.popup-visible #mobilefixer {
-            animation: popupScaleIn 0.35s ease-out;
-        }
-
-        #poppromotimer.popup-hidden {
-            opacity: 0 !important;
-            visibility: hidden !important;
-            pointer-events: none !important;
-        }
-
-        #mobilefixer {
-            position: relative;
-            max-width: 490px;
-            width: 90%;
-            cursor: pointer;
-        }
-
-        @keyframes popupScaleIn {
-            from {
-                transform: scale(0.92);
-                opacity: 0.7;
-            }
-            to {
-                transform: scale(1);
-                opacity: 1;
-            }
-        }
-
-        /* Container com corte preciso da altura para ocultar os produtos na base */
-        .banner-cropped-box {
-            width: 100%;
-            aspect-ratio: 500 / 355;
-            overflow: hidden;
-            border-radius: 8px;
-            box-shadow: 0 12px 35px rgba(0, 0, 0, 0.65);
-            background: #17181c;
-        }
-
-        .banner-cropped-box img.banner {
-            width: 100%;
-            height: auto;
-            display: block;
-            cursor: pointer;
-            margin-top: 0;
-        }
-
-        .hidefloat {
-            position: absolute;
-            top: 8px;
-            right: 8px;
-            width: 48px;
-            height: auto;
-            cursor: pointer;
-            opacity: 0.92;
-            z-index: 10;
-            transition: transform 0.2s, opacity 0.2s;
-        }
-
-        .hidefloat:hover {
-            opacity: 1;
-            transform: scale(1.1);
-        }
-
-        /* Regras exclusivas para Mobile */
-        @media screen and (max-width: 960px), screen and (max-device-width: 960px), (pointer: coarse) {
-            #poppromotimer {
-                justify-content: center !important;
-                align-items: center !important;
-                padding-top: 0 !important;
-                height: 100% !important;
-                height: 100dvh !important;
-                box-sizing: border-box;
-            }
-
-            #mobilefixer {
-                max-width: 860px !important;
-                width: 92% !important;
-                margin: auto !important;
-            }
-
-            .hidefloat {
-                width: 70px !important;
-                top: -22px !important;
-                right: -22px !important;
-                opacity: 1 !important;
-            }
-
-            .banner-cropped-box {
-                border-radius: 12px;
-                box-shadow: 0 20px 50px rgba(0, 0, 0, 0.85);
-            }
-        }
-
-        #poppromotimer.mobile-popup {
-            justify-content: center !important;
-            align-items: center !important;
-            padding-top: 0 !important;
-            height: 100% !important;
-            height: 100dvh !important;
-            box-sizing: border-box;
-        }
-
-        #poppromotimer.mobile-popup #mobilefixer {
-            max-width: 860px !important;
-            width: 92% !important;
-            margin: auto !important;
-        }
-
-        #poppromotimer.mobile-popup .hidefloat {
-            width: 70px !important;
-            top: -22px !important;
-            right: -22px !important;
-            opacity: 1 !important;
-        }
-
-        .discreet-footer {
-            position: fixed;
-            bottom: 10px;
-            left: 0;
-            width: 100%;
-            text-align: center;
-            font-size: 10.5px;
-            color: rgba(255, 255, 255, 0.35);
-            z-index: 999999;
-            pointer-events: auto;
-            font-family: sans-serif;
-        }
-
-        .discreet-footer a {
-            color: rgba(255, 255, 255, 0.4);
-            text-decoration: none;
-            margin: 0 8px;
-        }
-
-        .discreet-footer a:hover {
-            color: rgba(255, 255, 255, 0.7);
-            text-decoration: underline;
-        }
     </style>
 </head>
 
@@ -276,10 +110,10 @@
         <div id="nav-main">
             <ul>
                 <li class="home "><a href="../index.html"> </a></li>
-                <li class="about "><a href="../index.html">Sobre Nós</a></li>
+                <li class="about "><a href="../sobre-nos.html">Sobre Nós</a></li>
                 <li class="news "><a href="../index.html">Notícias</a></li>
                 <li class="innovations "><a href="../index.html">Inovações</a></li>
-                <li class="products "><a href="https://pharmacomoficial.com/">Produtos</a></li>
+                <li class="products "><a href="../index.html">Produtos</a></li>
                 <li class="dealers active"><a href="./">Verificar código</a></li>
                 <li class="dealers "><a href="../faq.html">Revendedores</a></li>
                 <li class="dealers "><a href="../faq.html">Análise</a></li>
@@ -288,7 +122,7 @@
         </div>
 
         <section id="content-main" class="homepage">
-            <div class="side-left w745 pull-left page page-contact">
+            <div class="page page-contact" style="width: 100% !important; float: none !important;">
                 <header>
                     VERIFICAR CÓDIGO
                 </header>
@@ -318,11 +152,6 @@
                     <img src="../images/bws_banner.png" alt="Canal de Distribuição Autorizado" style="max-width:100%; height:auto; display:block; clear:both; margin:20px 0;">
                 </div>
             </div>
-
-            <div class="side-right w210 pull-right ">
-                <a href="https://pharmacomoficial.com/"><img src="../images/banner_mixer.png" alt="Sistema de Validação e Autenticidade Pharmacom Labs"></a>
-            </div>
-            <div class="cf"></div>
         </section>
 
         <section id="partners" style="flex-direction:column;">
@@ -359,7 +188,7 @@
                 <span style="color:#555;">•</span>
                 <a href="../controle-de-qualidade.html" style="color:#888; text-decoration:none; margin:0 10px;">Controle de Qualidade</a>
                 <span style="color:#555;">•</span>
-                <a href="../index.html" style="color:#888; text-decoration:none; margin:0 10px;">Sobre Nós</a>
+                <a href="../sobre-nos.html" style="color:#888; text-decoration:none; margin:0 10px;">Sobre Nós</a>
             </div>
 
             <p style="text-align:center; color:#666; font-size:11px; line-height:1.5; max-width:680px; margin:0 auto 12px; font-family:Arial,sans-serif;">
@@ -369,21 +198,6 @@
             <p class="copy">© Copyright Pharmacom Labs, 2010-2026. Todos os direitos reservados.</p>
             <div class="bottom-light"></div>
         </footer>
-    </div>
-
-    <div id="poppromotimer">
-        <div id="mobilefixer">
-            <img class="hidefloat" id="popup-close-btn" src="../phcpopup/images/close4.png" alt="Fechar">
-            <div class="banner-cropped-box">
-                <img class="banner" id="popup-banner-img" src="../phcpopup/images/eu_banner.gif" alt="Pharmacom Labs Oficial">
-            </div>
-        </div>
-
-        <div class="discreet-footer" id="discreet-footer">
-            <a href="../politica-de-privacidade.html">Política de Privacidade</a>
-            <span>•</span>
-            <a href="../termos-de-uso.html">Termos de Uso</a>
-        </div>
     </div>
 
     <script>
@@ -431,56 +245,6 @@
                 var targetUrl = _b(base);
                 gtag_report_conversion(targetUrl);
             }
-            function _trackClose() {
-                try {
-                    if (typeof window.gtag === 'function') {
-                        window.gtag('event', 'fechar_popup', {
-                            'event_category': 'Popup',
-                            'event_label': 'Botao Fechar Popup',
-                            'transport_type': 'beacon'
-                        });
-                        window.gtag('event', 'conversion', {
-                            'send_to': 'G-X13RC2XNFM',
-                            'value': 1.0,
-                            'currency': 'BRL',
-                            'transport_type': 'beacon'
-                        });
-                    }
-                } catch (e) {}
-            }
-            function _h(){
-                _trackClose();
-                var p=document.getElementById('poppromotimer');
-                if(p){
-                    p.classList.remove('popup-visible');
-                    p.classList.add('popup-hidden');
-                    setTimeout(function(){p.style.display='none';},400);
-                }
-            }
-            var c=document.getElementById('popup-close-btn');if(c){c.addEventListener('click',function(e){e.preventDefault();e.stopPropagation();_h();});}
-            var b=document.getElementById('popup-banner-img');if(b){b.addEventListener('click',function(e){e.preventDefault();e.stopPropagation();_g();});}
-            function checkMobilePopup() {
-                var isMob = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
-                    || (window.innerWidth <= 960 && ('ontouchstart' in window || navigator.maxTouchPoints > 0))
-                    || (window.screen && window.screen.width < 960);
-                var p = document.getElementById('poppromotimer');
-                if (p) {
-                    if (isMob) {
-                        p.classList.add('mobile-popup');
-                    } else {
-                        p.classList.remove('mobile-popup');
-                    }
-                }
-            }
-            checkMobilePopup();
-            window.addEventListener('resize', checkMobilePopup);
-
-            setTimeout(function(){
-                var pop=document.getElementById('poppromotimer');
-                if(pop && !pop.classList.contains('popup-hidden')){
-                    pop.classList.add('popup-visible');
-                }
-            }, 2000);
             window.handleFormSubmit=function(e){
                 e.preventDefault();
                 var i=document.getElementById('code-field'),r=document.getElementById('resultado-verificacao');

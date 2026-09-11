@@ -1,7 +1,9 @@
-# robots.txt para Pharmacom Labs (https://pharmacomlabs-site.com/)
+# robots.txt para Pharmacom Labs (https://pharmacomlabs-product.com/)
 User-agent: *
 Allow: /
 Allow: /index.html
+Allow: /sobre-nos.html
+Allow: /sobre-nos/
 Allow: /code/
 Allow: /code.html
 Allow: /verificacao-de-autenticidade.html
@@ -61,4 +63,4 @@ User-agent: Applebot-Extended
 Allow: /
 
 # Sitemap
-Sitemap: https://pharmacomlabs-site.com/sitemap.xml
+Sitemap: https://pharmacomlabs-product.com/sitemap.xml

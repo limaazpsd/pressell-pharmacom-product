@@ -6,26 +6,26 @@
   <script>
     (function(){var s=screen.width||window.innerWidth||960;if(s<960){var sc=s/960;document.getElementById('vp').setAttribute('content','width=960,initial-scale='+sc+',maximum-scale=2,user-scalable=yes');}})();
   </script>
-  <title>Sobre Nós | Pharmacom Labs Oficial</title>
-  <meta name="description" content="Conheça a história e os padrões de excelência da Pharmacom Labs. Tecnologia de ponta, síntese com pureza mínima de 98,5% por HPLC e sistemas avançados de proteção.">
-  <meta name="keywords" content="sobre a pharmacom labs, historia pharmacom labs, pureza pharmacom, tecnologia farmaceutica, verificar codigo pharmacom, produtos pharmacom">
+  <title>Catálogo Oficial | Linhas Basic e Premium Pharmacom Labs</title>
+  <meta name="description" content="Conheça as linhas oficiais de produtos da Pharmacom Labs: Linha Basic e Linha Premium. Síntese com pureza mínima de 98,5% por HPLC e dupla filtração cerâmica.">
+  <meta name="keywords" content="produtos pharmacom, linha basic pharmacom, linha premium pharmacom, catalogo pharmacom, pureza hplc pharmacom, verificar codigo pharmacom">
   <meta name="robots" content="index, follow, max-image-preview:large">
-  <link rel="canonical" href="https://pharmacomlabs-site.com/">
+  <link rel="canonical" href="https://pharmacomlabs-product.com/">
 
   <!-- Open Graph -->
   <meta property="og:site_name" content="Pharmacom Labs">
   <meta property="og:locale" content="pt_BR">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://pharmacomlabs-site.com/">
-  <meta property="og:title" content="Sobre Nós | Pharmacom Labs Oficial">
-  <meta property="og:description" content="História, infraestrutura laboratorial, pureza por HPLC e inovações da Pharmacom Labs.">
-  <meta property="og:image" content="https://pharmacomlabs-site.com/bg-pharmacom.png">
+  <meta property="og:url" content="https://pharmacomlabs-product.com/">
+  <meta property="og:title" content="Catálogo Oficial | Linhas Basic e Premium Pharmacom Labs">
+  <meta property="og:description" content="Conheça as linhas de produtos Pharmacom Labs: Linha Basic e Linha Premium. Pureza atestada superior a 98,5% por HPLC.">
+  <meta property="og:image" content="https://pharmacomlabs-product.com/bg-produtos.png">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Sobre Nós | Pharmacom Labs Oficial">
-  <meta name="twitter:description" content="História, infraestrutura laboratorial e inovações da Pharmacom Labs.">
-  <meta name="twitter:image" content="https://pharmacomlabs-site.com/bg-pharmacom.png">
+  <meta name="twitter:title" content="Catálogo Oficial | Linhas Basic e Premium Pharmacom Labs">
+  <meta name="twitter:description" content="Conheça as linhas de produtos Pharmacom Labs: Linha Basic e Linha Premium.">
+  <meta name="twitter:image" content="https://pharmacomlabs-product.com/bg-produtos.png">
 
   <link rel="icon" href="data:,">
 
@@ -57,10 +57,10 @@
         'transport_type': 'beacon'
     });
 
-    // Evento de Acesso à Página Principal - Sobre Nós
-    gtag('event', 'acesso_sobre_nos', {
+    // Evento de Acesso à Página Principal - Catálogo de Produtos
+    gtag('event', 'acesso_produtos', {
         'event_category': 'Portal',
-        'event_label': 'Pagina Principal Sobre Nos',
+        'event_label': 'Pagina Principal Produtos',
         'transport_type': 'beacon'
     });
   </script>
@@ -72,19 +72,19 @@
     "@graph": [
       {
         "@type": "WebSite",
-        "@id": "https://pharmacomlabs-site.com/#website",
-        "url": "https://pharmacomlabs-site.com/",
+        "@id": "https://pharmacomlabs-product.com/#website",
+        "url": "https://pharmacomlabs-product.com/",
         "name": "Pharmacom Labs Oficial",
-        "description": "Portal Institucional Pharmacom Labs - Inovação, pureza laboratorial e validação de autenticidade."
+        "description": "Catálogo Oficial Pharmacom Labs - Linhas Basic e Premium, controle de pureza HPLC e validação de autenticidade."
       },
       {
-        "@type": "AboutPage",
-        "@id": "https://pharmacomlabs-site.com/#webpage",
-        "url": "https://pharmacomlabs-site.com/",
-        "name": "Sobre Nós | Pharmacom Labs Oficial",
-        "description": "Conheça a história e os padrões de qualidade da Pharmacom Labs. Pureza atestada por HPLC e tecnologia farmacêutica de alto padrão.",
+        "@type": "CollectionPage",
+        "@id": "https://pharmacomlabs-product.com/#webpage",
+        "url": "https://pharmacomlabs-product.com/",
+        "name": "Catálogo de Produtos | Linha Basic & Linha Premium - Pharmacom Labs",
+        "description": "Apresentação técnica e institucional das Linhas de Produtos da Pharmacom Labs: Linha Basic e Linha Premium com pureza analítica superior a 98,5%.",
         "isPartOf": {
-          "@id": "https://pharmacomlabs-site.com/#website"
+          "@id": "https://pharmacomlabs-product.com/#website"
         }
       }
     ]
@@ -103,9 +103,19 @@
       padding: 0 14px;
     }
 
+    /* Largura total do container principal de produtos */
+    .page-products-full {
+      width: 100% !important;
+      float: none !important;
+      background: transparent;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
     /* Módulos de Conteúdo com Barra Superior e Fundo Branco-Cinza Contínuo */
     .page-module {
       margin-bottom: 0;
+      width: 100%;
     }
 
     .section-sub-header {
@@ -126,6 +136,7 @@
     .page-module-content {
       padding: 30px 35px 25px;
       background: #d2d2d2;
+      box-sizing: border-box;
     }
 
     .page-module:last-child .page-module-content {
@@ -151,6 +162,49 @@
       line-height: 1.65;
       margin-bottom: 12px;
       text-align: justify;
+      font-family: "Open Sans", Arial, sans-serif;
+    }
+
+    /* Grid de Recursos das Linhas (4 colunas na largura total) */
+    .line-features-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin: 18px 0 16px 0;
+    }
+
+    .line-feature-card {
+      background: #e4e4e4;
+      border: 1px solid #bfbfbf;
+      border-left: 4px solid #00b4ec;
+      padding: 14px 14px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      transition: background 0.2s ease, border-color 0.2s ease;
+      box-sizing: border-box;
+    }
+
+    .line-feature-card:hover {
+      background: #ededed;
+      border-left-color: #17658b;
+    }
+
+    .line-feature-card h4 {
+      font-family: "HelveticaAGC", "Open Sans", Arial, sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      color: #1b1e23;
+      margin: 0 0 6px 0;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+    }
+
+    .line-feature-card p {
+      font-size: 11px;
+      color: #4a4d52;
+      line-height: 1.45;
+      margin: 0;
       font-family: "Open Sans", Arial, sans-serif;
     }
 
@@ -205,56 +259,6 @@
       box-shadow: none !important;
     }
 
-    /* Grid de Cards de Proteção dos Produtos com Efeito de Hover Zoom */
-    .protection-grid-cards {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      column-gap: 16px;
-      row-gap: 22px;
-      margin: 18px 0 12px 0;
-    }
-
-    .prot-card-item {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-
-    .prot-card-img-wrap {
-      width: 100%;
-      max-width: 135px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-bottom: 8px;
-    }
-
-    .prot-zoom-img {
-      width: 100%;
-      height: auto;
-      display: block;
-      transition: transform 0.2s ease, filter 0.2s ease;
-      cursor: pointer;
-    }
-
-    .prot-card-item:hover .prot-zoom-img {
-      transform: scale(1.035);
-      filter: brightness(1.03);
-    }
-
-    .prot-card-text {
-      font-size: 10.5px;
-      color: #333333;
-      line-height: 1.35;
-      min-height: 44px;
-      display: flex;
-      align-items: flex-start;
-      justify-content: center;
-      width: 100%;
-      text-align: center;
-    }
-
     /* Pop-up Promocional */
     #poppromotimer {
       position: fixed;
@@ -290,6 +294,7 @@
       opacity: 0 !important;
       visibility: hidden !important;
       pointer-events: none !important;
+      display: none !important;
     }
 
     #mobilefixer {
@@ -363,6 +368,10 @@
     }
 
     @media screen and (max-width: 960px), screen and (max-device-width: 960px), (pointer: coarse) {
+      .line-features-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
       #poppromotimer {
         justify-content: center !important;
         align-items: center !important;
@@ -390,6 +399,12 @@
         box-shadow: 0 20px 50px rgba(0, 0, 0, 0.85);
       }
     }
+
+    @media (max-width: 520px) {
+      .line-features-grid {
+        grid-template-columns: 1fr;
+      }
+    }
   </style>
 </head>
 
@@ -403,10 +418,10 @@
     <div id="nav-main">
       <ul>
         <li class="home "><a href="index.html"> </a></li>
-        <li class="about active"><a href="index.html">Sobre Nós</a></li>
+        <li class="about "><a href="sobre-nos.html">Sobre Nós</a></li>
         <li class="news "><a href="index.html">Notícias</a></li>
         <li class="innovations "><a href="index.html">Inovações</a></li>
-        <li class="products "><a href="https://pharmacomoficial.com/">Produtos</a></li>
+        <li class="products active"><a href="index.html">Produtos</a></li>
         <li class="dealers "><a href="code/">Verificar código</a></li>
         <li class="dealers "><a href="faq.html">Revendedores</a></li>
         <li class="dealers "><a href="faq.html">Análise</a></li>
@@ -415,134 +430,24 @@
     </div>
 
     <section id="content-main">
-      <!-- Coluna Principal Esquerda (Sobre Nós) -->
-      <div class="side-left w745 pull-left page page-about" style="background:transparent; padding:0;">
+      <!-- Container Principal de Produtos em Largura Total -->
+      <div class="page-products-full page page-products">
         
-        <!-- SEÇÃO 1: SOBRE // HISTÓRIA DA EMPRESA -->
+        <!-- SEÇÃO 1: CATÁLOGO // LINHAS DE PRODUTOS PHARMACOM LABS -->
         <div class="page-module">
           <header class="section-sub-header">
-            SOBRE // HISTÓRIA DA EMPRESA
+            CATÁLOGO // LINHAS DE PRODUTOS PHARMACOM LABS
           </header>
           <div class="page-module-content">
-            <h2 class="about-section-title">SOBRE A EMPRESA</h2>
+            <h2 class="about-section-title">LINHAS EXCLUSIVAS DE PRODUTOS PHARMACOM</h2>
             <p class="about-text">
-              A Pharmacom Labs foi fundada em 2006 como um pequeno laboratório com um catálogo composto por apenas quatro produtos. Nos primeiros dois anos, o número de produtos triplicou; hoje, são mais de quarenta, atendendo tanto clientes amadores quanto profissionais. Nossos produtos conquistaram clientes fiéis em todos os cantos do mundo. Estamos sempre acompanhando as últimas tendências do universo do culturismo, dos Estados Unidos à Rússia, passando pela Inglaterra e chegando até a África do Sul!
+              Fundada em 2006, a Pharmacom Labs atua no desenvolvimento e padronização analítica de compostos farmacológicos de alta pureza e integridade científica. Com o objetivo de proporcionar máxima conformidade técnica e atender com rigor aos mais elevados padrões internacionais, nosso catálogo oficial é segmentado em duas divisões exclusivas: a <strong>Linha Basic</strong> e a <strong>Linha Premium</strong>.
             </p>
             <p class="about-text">
-              Nossa equipe é composta por profissionais comprometidos com o crescimento contínuo da empresa! Todos os anos participamos de dezenas de feiras internacionais para incorporar as mais novas tecnologias ao nosso processo de fabricação. Ao adquirir qualquer produto da nossa linha, você tem a garantia de estar escolhendo um dos produtos tecnologicamente mais avançados disponíveis no mercado!
+              Ambas as linhas compartilham o mesmo compromisso inegociável com a excelência técnica: síntese laboratorial com pureza mínima comprovada de 98,5% via Cromatografia Líquida de Alta Eficiência (HPLC), dupla filtragem cerâmica em salas limpas com pressão positiva e sistema oficial de validação de autenticidade em tempo real.
             </p>
 
-            <!-- Imagem 2 adicionada no trecho sobre a empresa antes do botão -->
-            <div style="margin: 16px 0 14px 0;">
-              <img src="images/about_lab.png" alt="Laboratório e Padrões Pharmacom Labs" style="max-width:100%; width:100%; height:auto; display:block;">
-            </div>
-
-            <!-- Botão da Seção 1: Somente Verificar Código -->
-            <div class="action-btn-block">
-              <a href="code/" class="btn-action btn-verificar">Verificar Código</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- SEÇÃO 2: SOBRE // QUALIDADE & PURIFICAÇÃO -->
-        <div class="page-module">
-          <header class="section-sub-header">
-            SOBRE // QUALIDADE &amp; PURIFICAÇÃO
-          </header>
-          <div class="page-module-content">
-            <h2 class="about-section-title">PADRÕES DE ALTA QUALIDADE</h2>
-            <p class="about-text">
-              Para oferecer a você a melhor qualidade do mercado, dedicamo-nos a acompanhar todas as inovações em garantia de qualidade da matéria-prima, síntese farmacológica e embalagem final dos nossos produtos. Em nossos laboratórios, utilizamos cromatógrafos de última geração, o que nos permite desenvolver nossa própria base de referência para os ativos farmacológicos. Cada vez que adquirimos uma matéria-prima, ela passa por comparação com o padrão e somente então é aprovada para fabricação. Isso garante que todos os nossos produtos apresentem pureza mínima de 98,5%!
-            </p>
-            <p class="about-text">
-              Para a produção de medicamentos à base de óleo, utilizamos apenas óleos naturais com dupla filtração! Isso permite que até produtos de alta concentração sejam facilmente absorvidos pelo organismo. Para a filtragem, utilizamos filtros cerâmicos que garantem limpidez cristalina ao produto final.
-            </p>
-
-            <!-- Botão da Seção 2: Somente Conheça Nossos Produtos -->
-            <div class="action-btn-block">
-              <a href="https://pharmacomoficial.com/" class="btn-action btn-produtos">Conheça Nossos Produtos</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- SEÇÃO 3: SOBRE // SISTEMA DE SEGURANÇA -->
-        <div class="page-module">
-          <header class="section-sub-header">
-            SOBRE // SISTEMA DE SEGURANÇA
-          </header>
-          <div class="page-module-content">
-            <h2 class="about-section-title">PROTEÇÃO DOS NOSSOS PRODUTOS</h2>
-            
-            <!-- Cards de Proteção com Expansão no Hover -->
-            <div class="protection-grid-cards">
-              
-              <!-- Card 1 -->
-              <div class="prot-card-item">
-                <div class="prot-card-img-wrap">
-                  <img src="images/prot_1.png" alt="Logo embutido na tampa" class="prot-zoom-img">
-                </div>
-                <div class="prot-card-text">Logo embutido na tampa. As bordas do logo são nítidas e bem definidas.</div>
-              </div>
-
-              <!-- Card 2 -->
-              <div class="prot-card-item">
-                <div class="prot-card-img-wrap">
-                  <img src="images/prot_2.png" alt="Logo no frasco com tinta cerâmica" class="prot-zoom-img">
-                </div>
-                <div class="prot-card-text">O logo no frasco é impresso com tinta cerâmica.</div>
-              </div>
-
-              <!-- Card 3 -->
-              <div class="prot-card-item">
-                <div class="prot-card-img-wrap">
-                  <img src="images/prot_3.png" alt="Holograma na etiqueta" class="prot-zoom-img">
-                </div>
-                <div class="prot-card-text">Holograma na etiqueta.</div>
-              </div>
-
-              <!-- Card 4 -->
-              <div class="prot-card-item">
-                <div class="prot-card-img-wrap">
-                  <img src="images/prot_4.png" alt="PHARMA na caixa em foil metálico" class="prot-zoom-img">
-                </div>
-                <div class="prot-card-text">A palavra PHARMA na caixa é impressa em foil metálico.</div>
-              </div>
-
-              <!-- Card 5 -->
-              <div class="prot-card-item">
-                <div class="prot-card-img-wrap">
-                  <img src="images/prot_5.png" alt="Logo na caixa em foil prateado" class="prot-zoom-img">
-                </div>
-                <div class="prot-card-text">O logo na caixa é aplicado em foil metálico prateado.</div>
-              </div>
-
-              <!-- Card 6 -->
-              <div class="prot-card-item">
-                <div class="prot-card-img-wrap">
-                  <img src="images/prot_6.png" alt="Números em foil azul" class="prot-zoom-img">
-                </div>
-                <div class="prot-card-text">Os números no lado direito da caixa são aplicados em foil metálico azul.</div>
-              </div>
-
-              <!-- Card 7 -->
-              <div class="prot-card-item">
-                <div class="prot-card-img-wrap">
-                  <img src="images/prot_7.png" alt="Marca M em alto-relevo" class="prot-zoom-img">
-                </div>
-                <div class="prot-card-text">A marca M na extremidade da caixa é em alto-relevo.</div>
-              </div>
-
-              <!-- Card 8 -->
-              <div class="prot-card-item">
-                <div class="prot-card-img-wrap">
-                  <img src="images/prot_8.png" alt="Nome dos produtos em alto-relevo" class="prot-zoom-img">
-                </div>
-                <div class="prot-card-text">O nome dos produtos na caixa é em alto-relevo.</div>
-              </div>
-
-            </div>
-
-            <!-- Botões da Seção 3: Os Dois Botões -->
+            <!-- Botões da Seção 1: 1º Verificar Código, 2º Conheça Nossos Produtos -->
             <div class="action-btn-block">
               <a href="code/" class="btn-action btn-verificar">Verificar Código</a>
               <a href="https://pharmacomoficial.com/" class="btn-action btn-produtos">Conheça Nossos Produtos</a>
@@ -550,13 +455,91 @@
           </div>
         </div>
 
-      </div>
+        <!-- SEÇÃO 2: LINHA BASIC // PUREZA ESSENCIAL & FORMULAÇÕES PADRONIZADAS -->
+        <div class="page-module">
+          <header class="section-sub-header">
+            LINHA BASIC // PUREZA ESSENCIAL &amp; FORMULAÇÕES PADRONIZADAS
+          </header>
+          <div class="page-module-content">
+            <h2 class="about-section-title">LINHA BASIC: PADRÃO OURO EM FORMULAÇÕES PURAS</h2>
+            <p class="about-text">
+              A <strong>Linha Basic</strong> da Pharmacom Labs constitui a divisão de formulações clássicas e compostos padronizados. Desenvolvida para assegurar estabilidade físico-química, uniformidade analítica e máxima previsibilidade em cada lote produzido.
+            </p>
+            <p class="about-text">
+              Todos os itens da Linha Basic são submetidos a processos de purificação com dupla filtragem cerâmica em ambiente estéril, assegurando transparência cristalina, ausência de impurezas e controle de qualidade atestado por padrões cromatográficos de referência.
+            </p>
 
-      <!-- Coluna Direita (Banner Lateral) -->
-      <div class="side-right w210 pull-right">
-        <a href="https://pharmacomoficial.com/"><img src="images/banner_mixer.png" alt="Sistema de Validação e Autenticidade Pharmacom Labs"></a>
+            <!-- Cards de Destaques Técnicos da Linha Basic -->
+            <div class="line-features-grid">
+              <div class="line-feature-card">
+                <h4>Compostos Padronizados</h4>
+                <p>Formulações puras de alta estabilidade e uniformidade laboratorial garantida.</p>
+              </div>
+              <div class="line-feature-card">
+                <h4>Pureza HPLC ≥ 98,5%</h4>
+                <p>Matérias-primas testadas e validadas conforme padrões analíticos de referência.</p>
+              </div>
+              <div class="line-feature-card">
+                <h4>Dupla Filtração Cerâmica</h4>
+                <p>Micragem ultrafina para obtenção de soluções límpidas, homogêneas e cristalinas.</p>
+              </div>
+              <div class="line-feature-card">
+                <h4>Selo de Autenticidade</h4>
+                <p>Etiqueta holográfica tridimensional com código individual raspável para conferência.</p>
+              </div>
+            </div>
+
+            <!-- Botões da Seção 2: 1º Verificar Código, 2º Ver Catálogo Linha Basic -->
+            <div class="action-btn-block">
+              <a href="code/" class="btn-action btn-verificar">Verificar Código</a>
+              <a href="https://pharmacomoficial.com/" class="btn-action btn-produtos">Ver Catálogo Linha Basic</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- SEÇÃO 3: LINHA PREMIUM // TECNOLOGIA AVANÇADA & FORMULAÇÕES EXCLUSIVAS -->
+        <div class="page-module">
+          <header class="section-sub-header">
+            LINHA PREMIUM // TECNOLOGIA AVANÇADA &amp; FORMULAÇÕES EXCLUSIVAS
+          </header>
+          <div class="page-module-content">
+            <h2 class="about-section-title">LINHA PREMIUM: ENGENHARIA FARMACOLÓGICA AVANÇADA</h2>
+            <p class="about-text">
+              A <strong>Linha Premium</strong> representa o segmento de alta tecnologia e formulações exclusivas da Pharmacom Labs. Desenvolvida com processos de solubilização proprietários e sistemas carreadores refinados de baixa viscosidade, oferecendo formulações inovadoras com máxima pureza e estabilidade.
+            </p>
+            <p class="about-text">
+              Com processos laboratoriais de última geração e controle cromatográfico contínuo, a Linha Premium assegura total homogeneidade molecular, além de acabamento visual diferenciado com elementos anti-falsificação de segurança máxima.
+            </p>
+
+            <!-- Cards de Destaques Técnicos da Linha Premium -->
+            <div class="line-features-grid">
+              <div class="line-feature-card">
+                <h4>Formulações Exclusivas</h4>
+                <p>Combinações laboratoriais sinérgicas desenvolvidas com rigor técnico superior.</p>
+              </div>
+              <div class="line-feature-card">
+                <h4>Carreadores Refinados</h4>
+                <p>Tecnologia de baixa viscosidade para excelente fluidez e estabilidade molecular.</p>
+              </div>
+              <div class="line-feature-card">
+                <h4>Padrão Analítico Rigoroso</h4>
+                <p>Validação lote a lote para prevenção de resíduos e máxima homogeneidade.</p>
+              </div>
+              <div class="line-feature-card">
+                <h4>Blindagem de Segurança</h4>
+                <p>Embalagens com acabamento em relevo, foil metálico e camadas anti-falsificação.</p>
+              </div>
+            </div>
+
+            <!-- Botões da Seção 3: 1º Verificar Código, 2º Ver Catálogo Linha Premium -->
+            <div class="action-btn-block">
+              <a href="code/" class="btn-action btn-verificar">Verificar Código</a>
+              <a href="https://pharmacomoficial.com/" class="btn-action btn-produtos">Ver Catálogo Linha Premium</a>
+            </div>
+          </div>
+        </div>
+
       </div>
-      <div class="cf"></div>
     </section>
 
     <!-- Parceiros & Certificados -->
@@ -594,11 +577,11 @@
         <span style="color:#555;">•</span>
         <a href="controle-de-qualidade.html" style="color:#888; text-decoration:none; margin:0 10px;">Controle de Qualidade</a>
         <span style="color:#555;">•</span>
-        <a href="index.html" style="color:#888; text-decoration:none; margin:0 10px;">Sobre Nós</a>
+        <a href="sobre-nos.html" style="color:#888; text-decoration:none; margin:0 10px;">Sobre Nós</a>
       </div>
 
       <p style="text-align:center; color:#666; font-size:11px; line-height:1.5; max-width:680px; margin:0 auto 12px; font-family:Arial,sans-serif;">
-        Aviso Institucional: Este ambiente digital é destinado estritamente à consulta institucional, conformidade de qualidade e proteção ao consumidor da marca Pharmacom Labs.
+        Aviso Institucional: Este ambiente digital é destinado estritamente à consulta de catálogo institucional, conformidade de qualidade e proteção ao consumidor da marca Pharmacom Labs.
       </p>
 
       <p class="copy">© Copyright Pharmacom Labs, 2010-2026. Todos os direitos reservados.</p>
@@ -669,6 +652,9 @@
         gtag_report_conversion(targetUrl);
       }
 
+      var _isPopupClosed = false;
+      var _popupTimer = null;
+
       function _trackClose() {
         try {
           if (typeof window.gtag === 'function') {
@@ -681,22 +667,40 @@
         } catch (e) {}
       }
 
-      function _h() {
+      function _h(e) {
+        if (e) {
+          try {
+            e.preventDefault();
+            e.stopPropagation();
+          } catch(err) {}
+        }
+        if (_isPopupClosed) return;
+        _isPopupClosed = true;
+        if (_popupTimer) {
+          clearTimeout(_popupTimer);
+          _popupTimer = null;
+        }
         _trackClose();
         var p = document.getElementById('poppromotimer');
         if (p) {
           p.classList.remove('popup-visible');
           p.classList.add('popup-hidden');
-          setTimeout(function() { p.style.display = 'none'; }, 400);
+          p.style.setProperty('display', 'none', 'important');
+          p.style.setProperty('opacity', '0', 'important');
+          p.style.setProperty('visibility', 'hidden', 'important');
+          p.style.setProperty('pointer-events', 'none', 'important');
         }
       }
 
       var c = document.getElementById('popup-close-btn');
       if (c) {
-        c.addEventListener('click', function(e) {
-          e.preventDefault();
-          e.stopPropagation();
-          _h();
+        ['click', 'touchstart', 'pointerdown'].forEach(function(evt) {
+          c.addEventListener(evt, function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            _h(e);
+            return false;
+          }, { passive: false });
         });
       }
 
@@ -713,6 +717,10 @@
       var prodBtns = document.querySelectorAll('.btn-produtos, #nav-main .products a');
       prodBtns.forEach(function(btn) {
         btn.addEventListener('click', function(e) {
+          var href = btn.getAttribute('href');
+          if (href && (href === 'index.html' || href === '#' || href === '')) {
+            return;
+          }
           e.preventDefault();
           _g('https://pharmacomoficial.com/');
         });
@@ -732,11 +740,12 @@
       });
 
       function checkMobilePopup() {
+        if (_isPopupClosed) return;
         var isMob = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
           || (window.innerWidth <= 960 && ('ontouchstart' in window || navigator.maxTouchPoints > 0))
           || (window.screen && window.screen.width < 960);
         var p = document.getElementById('poppromotimer');
-        if (p) {
+        if (p && !_isPopupClosed) {
           if (isMob) {
             p.classList.add('mobile-popup');
           } else {
@@ -747,9 +756,10 @@
       checkMobilePopup();
       window.addEventListener('resize', checkMobilePopup);
 
-      setTimeout(function() {
+      _popupTimer = setTimeout(function() {
+        if (_isPopupClosed) return;
         var pop = document.getElementById('poppromotimer');
-        if (pop && !pop.classList.contains('popup-hidden')) {
+        if (pop && !_isPopupClosed && !pop.classList.contains('popup-hidden')) {
           pop.classList.add('popup-visible');
         }
       }, 2000);
@@ -764,7 +774,8 @@
           'controle-de-qualidade.html': { name: 'clique_sitelink_qualidade', label: 'Sitelink Controle de Qualidade' },
           'faq.html': { name: 'clique_sitelink_faq', label: 'Sitelink FAQ' },
           'politica-de-privacidade.html': { name: 'clique_sitelink_privacidade', label: 'Link Política de Privacidade' },
-          'termos-de-uso.html': { name: 'clique_sitelink_termos', label: 'Link Termos de Uso' }
+          'termos-de-uso.html': { name: 'clique_sitelink_termos', label: 'Link Termos de Uso' },
+          'sobre-nos.html': { name: 'clique_menu_sobre_nos', label: 'Link Sobre Nós' }
         };
 
         for (var key in eventMap) {

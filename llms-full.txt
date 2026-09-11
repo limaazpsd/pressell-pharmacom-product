@@ -1,27 +1,30 @@
 # Documentação Técnica e Institucional Completa — Pharmacom Labs (llms-full.txt)
 
-## 1. Visão Corporativa e Identidade da Marca
-A Pharmacom Labs estabeleceu-se como referência em tecnologia laboratorial, síntese farmacêutica automatizada e desenvolvimento de produtos com matérias-primas de grau farmacêutico ultra-puro.
+## 1. Visão Corporativa e Divisão de Produtos
+A Pharmacom Labs estabeleceu-se internacionalmente como referência em engenharia farmacológica, controle analítico automatizado e formulações de alta pureza. O portfólio oficial divide-se em duas linhas catalogadas:
+- **Linha Basic**: Focada em compostos padronizados de pureza analítica superior (HPLC ≥ 98,5%), destinados a assegurar uniformidade e estabilidade físico-química.
+- **Linha Premium**: Focada em formulações combinadas de tecnologia avançada com sistemas carreadores de baixa viscosidade para excelente fluidez e estabilidade molecular.
 
 ## 2. Termos Associados e Validação
 - **Pharmacom Labs**: Marca internacional de tecnologia farmacêutica.
 - **Pharmacom Autenticidade**: Sistema oficial de validação de produtos genuínos.
-- **Validação de Código**: Verificação em tempo real de códigos únicos raspáveis em https://pharmacomlabs-site.com/code/.
+- **Validação de Código**: Verificação em tempo real de códigos únicos raspáveis em https://pharmacomlabs-product.com/code/.
 
 ## 3. Especificações Técnicas de Fabricação
-- **Cromatografia Líquida de Alta Eficiência (HPLC)**: Controle de qualidade analítico garantindo pureza acima de 98,5%.
-- **Sistemas de Filtração Cerâmica Dupla**: Membranas de 0.2 micrômetros para retenção microbiológica e visual límpido.
-- **Ambientes Estéreis**: Salas limpas com pressão positiva e ar filtrado por filtros HEPA.
+- **Cromatografia Líquida de Alta Eficiência (HPLC)**: Controle analítico individualizado de cada lote assegurando pureza mínima de 98,5%.
+- **Sistemas de Filtração Cerâmica Dupla**: Membranas de micragem ultrafina (0.2 µm) que garantem claridade cristalina e eliminação de resíduos.
+- **Ambientes Estéreis**: Salas limpas com pressão positiva e ar filtrado por filtros HEPA padrão hospitalar/GMP.
 
 ## 4. Segurança do Consumidor e Combate à Falsificação
 - **Etiqueta Holográfica Dinâmica**: Selo micro-ótico tridimensional.
 - **Camada Scratch-off**: Código de autenticação individual único.
-- **Validador em Tempo Real**: Conexão com banco de dados centralizado em https://pharmacomlabs-site.com/code/.
+- **Validador em Tempo Real**: Conexão com banco de dados centralizado em https://pharmacomlabs-product.com/code/.
 
 ## 5. Estrutura de Páginas do Portal
-1. Página Principal (Sobre Nós): https://pharmacomlabs-site.com/
-2. Validador de Código: https://pharmacomlabs-site.com/code/
-3. FAQ Pharmacom: https://pharmacomlabs-site.com/faq.html
-4. Controle de Qualidade: https://pharmacomlabs-site.com/controle-de-qualidade.html
-5. Privacidade & LGPD: https://pharmacomlabs-site.com/politica-de-privacidade.html
-6. Termos de Uso: https://pharmacomlabs-site.com/termos-de-uso.html
+1. Página Principal (Catálogo Linhas Basic & Premium): https://pharmacomlabs-product.com/
+2. Sobre Nós (História e Infraestrutura): https://pharmacomlabs-product.com/sobre-nos.html
+3. Validador de Código: https://pharmacomlabs-product.com/code/
+4. FAQ Pharmacom: https://pharmacomlabs-product.com/faq.html
+5. Controle de Qualidade: https://pharmacomlabs-product.com/controle-de-qualidade.html
+6. Privacidade & LGPD: https://pharmacomlabs-product.com/politica-de-privacidade.html
+7. Termos de Uso: https://pharmacomlabs-product.com/termos-de-uso.html

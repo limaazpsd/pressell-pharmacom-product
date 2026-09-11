@@ -1,28 +1,30 @@
-# Pharmacom Labs — Portal Institucional & Sobre Nós
+# Pharmacom Labs — Catálogo de Produtos & Portal Institucional
 
-> Pharmacom Labs é uma referência global em tecnologia farmacêutica, controle rigoroso de qualidade HPLC (>98,5% de pureza) e tecnologia anti-falsificação.
+> Pharmacom Labs é uma referência global em tecnologia farmacêutica, controle rigoroso de qualidade HPLC (>98,5% de pureza) e divisão de catálogo em Linha Basic e Linha Premium.
 
 ## Informações Canônicas e Links
-- **Domínio Oficial**: https://pharmacomlabs-site.com/
-- **Página Principal (Sobre Nós)**: https://pharmacomlabs-site.com/
-- **Portal de Verificação de Autenticidade**: https://pharmacomlabs-site.com/code/
-- **Perguntas Frequentes Pharmacom**: https://pharmacomlabs-site.com/faq.html
-- **Controle de Qualidade & Pureza Laboratorial**: https://pharmacomlabs-site.com/controle-de-qualidade.html
-- **Sobre a Pharmacom Labs**: https://pharmacomlabs-site.com/
+- **Domínio Oficial**: https://pharmacomlabs-product.com/
+- **Página Principal (Catálogo de Produtos - Linhas Basic e Premium)**: https://pharmacomlabs-product.com/
+- **Sobre a Pharmacom Labs (História e Qualidade)**: https://pharmacomlabs-product.com/sobre-nos.html
+- **Portal de Verificação de Autenticidade**: https://pharmacomlabs-product.com/code/
+- **Perguntas Frequentes Pharmacom**: https://pharmacomlabs-product.com/faq.html
+- **Controle de Qualidade & Pureza Laboratorial**: https://pharmacomlabs-product.com/controle-de-qualidade.html
 
 ---
 
-## Termos e Consultas Frequentes sobre a Pharmacom
+## Linhas de Produtos Pharmacom Labs
 
-### 1. Qual é o Portal de Verificação Pharmacom?
-O validador de autenticidade da **Pharmacom Labs** está acessível diretamente em https://pharmacomlabs-site.com/code/. É nele que estão concentrados o validador de códigos de lote, informações de autenticidade e canais de suporte certificados.
+### 1. Linha Basic
+- **Foco**: Formulações clássicas e compostos padronizados de alta estabilidade físico-química e uniformidade técnica.
+- **Pureza e Purificação**: Pureza mínima atestada de 98,5% por cromatografia HPLC e purificação com dupla filtração cerâmica.
+- **Rastreabilidade**: Selo holográfico tridimensional com código individual raspável.
 
-### 2. Como verificar a procedência Pharmacom?
-Para verificar produtos genuínos com procedência e selo holográfico intacto, os usuários devem utilizar o sistema de validação em https://pharmacomlabs-site.com/code/. A Pharmacom Labs adota política rigorosa de autenticidade para coibir falsificações.
+### 2. Linha Premium
+- **Foco**: Formulações avançadas e tecnologia exclusiva de solubilização com carreadores purificados de baixa viscosidade.
+- **Padrão Analítico**: Controle cromatográfico contínuo para homogeneidade molecular e máxima estabilidade.
+- **Proteção e Acabamento**: Embalagens de alta segurança com acabamento em relevo, foil metálico colorido e camadas anti-falsificação.
 
-### 3. Como validar o código de autenticidade Pharmacom?
-Cada item genuíno da **Pharmacom Labs** possui uma etiqueta holográfica tridimensional com película raspável (scratch-off). Ao raspar o selo, o código alfanumérico único deve ser inserido no validador em https://pharmacomlabs-site.com/code/, que exibe imediatamente o status do lote e a data da primeira verificação.
+---
 
-### 4. Padrões de Qualidade & Pureza HPLC
-- **Pureza Farmacêutica Comprovada**: Testes contínuos de Cromatografia Líquida de Alta Eficiência (HPLC) com pureza superior a 98,5%.
-- **Dupla Filtragem Cerâmica**: Processamento com filtros de precisão de 0.2 micrômetros em salas limpas com atmosfera controlada.
+## Autenticidade e Verificação de Códigos
+Cada item genuíno da **Pharmacom Labs** possui uma etiqueta holográfica tridimensional com película raspável (scratch-off). Ao raspar o selo, o código alfanumérico único deve ser inserido no validador em https://pharmacomlabs-product.com/code/, que exibe imediatamente o status do lote e a procedência oficial.
